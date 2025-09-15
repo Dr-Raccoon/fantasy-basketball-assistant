@@ -1,3 +1,3 @@
-# Fantasy Basketball Assistant
+# Fantasy Basketball Assistant — Draft Assistant
 
-Static web app. Upload your CSV, draft, and compare teams.
+Upload CSV, draft players, view teams, compare head-to-head. Local storage only.

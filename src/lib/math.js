@@ -1,1 +1,1 @@
-export function calcTeamTotals(){}
+export function calcTeamTotals(players,cats){return {count:players.length};}

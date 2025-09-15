@@ -1,1 +1,1 @@
-export const NINE_CATS = ['PTS','REB','AST','STL','BLK','3PM','FG%','FT%','TOV'];
+export const NINE_CATS = ['PTS','REB','AST','STL','BLK','3PM','FG%','FT%','TOV']; export const DEFAULT_TEAMS = Array.from({length:12},(_,i)=>({id:'t'+(i+1),name:'Team '+(i+1)}));
