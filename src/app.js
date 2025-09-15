@@ -16,12 +16,15 @@ function switchTab(name){
   Object.entries(sections).forEach(([k,el]) => el.classList.toggle('active', k===name));
 }
 
+// Wire tab buttons
 for (const b of tabs){ b.addEventListener('click', () => switchTab(b.dataset.tab)); }
 
+// Initialize screens
 initUpload(sections.upload);
 initDraft(sections.draft);
 initTeams(sections.teams);
 initCompare(sections.compare);
 
+// Status blinker
 const statusEl = document.getElementById('app-status');
 let dot = 0; setInterval(()=>{ statusEl.textContent = ['•','••','•••','••••'][dot++%4] + ' ready'; }, 800);

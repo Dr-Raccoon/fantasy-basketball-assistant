@@ -12,22 +12,28 @@
   <header class="topbar">
     <h1>Fantasy Basketball Assistant</h1>
   </header>
+
   <nav class="tabs">
     <button data-tab="upload" class="active">1) Upload / Map</button>
     <button data-tab="draft">2) Draft</button>
     <button data-tab="teams">3) Teams</button>
     <button data-tab="compare">4) Compare</button>
   </nav>
+
   <main>
     <section id="tab-upload" class="tab active"></section>
     <section id="tab-draft" class="tab"></section>
     <section id="tab-teams" class="tab"></section>
     <section id="tab-compare" class="tab"></section>
   </main>
+
   <footer class="footer">
-    <div><strong>League:</strong> Auction · H2H · 9-cat · 12 teams · 13 roster slots (PG, SG, G, SF, PF, F, C, 3×Util, 3×Bench)</div>
+    <div>
+      <strong>League:</strong> Auction · H2H · 9-cat · 12 teams · 13 roster slots (PG, SG, G, SF, PF, F, C, 3×Util, 3×Bench)
+    </div>
     <div id="app-status"></div>
   </footer>
+
   <script type="module" src="./src/app.js"></script>
 </body>
 </html>
