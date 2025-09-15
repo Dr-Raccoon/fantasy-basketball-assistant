@@ -1,0 +1,1 @@
+export const NINE_CATS = ['PTS','REB','AST','STL','BLK','3PM','FG%','FT%','TOV'];

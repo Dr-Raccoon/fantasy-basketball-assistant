@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fantasy Basketball Assistant</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Fantasy Basketball Assistant</h1>
+  </header>
+  <nav class="tabs">
+    <button data-tab="upload" class="active">1) Upload / Map</button>
+    <button data-tab="draft">2) Draft</button>
+    <button data-tab="teams">3) Teams</button>
+    <button data-tab="compare">4) Compare</button>
+  </nav>
+  <main>
+    <section id="tab-upload" class="tab active"></section>
+    <section id="tab-draft" class="tab"></section>
+    <section id="tab-teams" class="tab"></section>
+    <section id="tab-compare" class="tab"></section>
+  </main>
+  <footer class="footer">
+    <div><strong>League:</strong> Auction · H2H · 9-cat · 12 teams · 13 roster slots</div>
+    <div id="app-status"></div>
+  </footer>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
